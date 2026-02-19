@@ -1,6 +1,6 @@
 {
   "name": "@aleksikallio/pinger",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "Aleksi Kallio <aleksi@codefox.fi> (https://codefox.fi)",
   "type": "module",
   "description": "Continuous ping logger with rotating CSV output and a modern terminal UI",
