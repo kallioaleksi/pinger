@@ -1,21 +1,21 @@
-# @kallioaleksi/pinger
+# @aleksikallio/pinger
 
 Continuous ping logger with rotating CSV output and a modern terminal UI.
 
 ## Quick Start
 
 ```bash
-npx @kallioaleksi/pinger -H 8.8.8.8
+npx @aleksikallio/pinger -H 8.8.8.8
 ```
 
 ## Installation
 
 ```bash
 # Global install with bun
-bun install -g @kallioaleksi/pinger
+bun install -g @aleksikallio/pinger
 
 # Or with npm
-npm install -g @kallioaleksi/pinger
+npm install -g @aleksikallio/pinger
 ```
 
 ## Options
