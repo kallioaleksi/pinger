@@ -1,21 +1,21 @@
-# @codefox-fi/pinger
+# @kallioaleksi/pinger
 
 Continuous ping logger with rotating CSV output and a modern terminal UI.
 
 ## Quick Start
 
 ```bash
-npx @codefox-fi/pinger -H 8.8.8.8
+npx @kallioaleksi/pinger -H 8.8.8.8
 ```
 
 ## Installation
 
 ```bash
 # Global install with bun
-bun install -g @codefox-fi/pinger
+bun install -g @kallioaleksi/pinger
 
 # Or with npm
-npm install -g @codefox-fi/pinger
+npm install -g @kallioaleksi/pinger
 ```
 
 ## Options
@@ -53,7 +53,7 @@ pinger -H 1.1.1.1 -s 30m
 
 ## CSV Output Format
 
-Files are written to the output directory with names like `ping-20260219T140000.csv`. A new file is created every session interval.
+Files are written to the output directory with names like `pinger-20260219T140000.csv`. A new file is created every session interval.
 
 Format is semicolon-delimited with no header row:
 
