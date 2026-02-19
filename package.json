@@ -1,0 +1,35 @@
+{
+  "name": "@codefox-fi/pinger",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Continuous ping logger with rotating CSV output and a modern terminal UI",
+  "keywords": ["ping", "network", "logger", "csv", "cli", "monitoring"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codefox-fi/pinger"
+  },
+  "bin": {
+    "pinger": "./pinger.ts"
+  },
+  "files": [
+    "pinger.ts",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "scripts": {
+    "start": "bun run pinger.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "commander": "^14.0.3",
+    "crayon.js": "^3.3.3",
+    "ora": "^9.3.0"
+  }
+}
