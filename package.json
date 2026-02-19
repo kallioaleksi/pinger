@@ -1,5 +1,5 @@
 {
-  "name": "@codefox-fi/pinger",
+  "name": "@kallioaleksi/pinger",
   "version": "1.0.0",
   "type": "module",
   "description": "Continuous ping logger with rotating CSV output and a modern terminal UI",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codefox-fi/pinger"
+    "url": "https://github.com/kallioaleksi/pinger"
   },
   "bin": {
     "pinger": "./pinger.ts"
